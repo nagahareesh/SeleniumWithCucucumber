@@ -13,8 +13,9 @@
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
+                     <artifactId>maven-compiler-plugin</artifactId>  
                 <version>3.6.3</version>
+                     <packaging>war</packaging>
                 <configuration>
                     <source>10</source>
                     <target>10</target>
